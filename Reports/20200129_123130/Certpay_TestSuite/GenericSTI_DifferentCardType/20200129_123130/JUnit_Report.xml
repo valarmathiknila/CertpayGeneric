@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="GenericSTI_DifferentCardType" time="1.089" tests="1" failures="0" errors="1">
+   <testsuite name="GenericSTI_DifferentCardType" tests="1" failures="0" errors="1" time="1.089" timestamp="2020-01-29 12:31:33" hostname="admin - SYS8" id="Test Suites/Certpay_TestSuite/GenericSTI_DifferentCardType">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\CertpayGeneric\\Reports\\20200129_123130\\Certpay_TestSuite\\GenericSTI_DifferentCardType\\20200129_123130"/>
+         <property name="logFiles" value="D:\\CertpayGeneric\\Reports\\20200129_123130\\Certpay_TestSuite\\GenericSTI_DifferentCardType\\20200129_123130\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="admin - SYS8"/>
+         <property name="hostAddress" value="192.168.1.176"/>
+         <property name="os" value="Windows 10 32bit"/>
+         <property name="katalonVersion" value="7.1.2.1"/>
+      </properties>
+      <testcase name="Test Cases/Certpay_GenericSTI/CardTypes_SingleLinePayment/TC_001_SingleLinePayment_VISA" time="0.679" classname="Test Cases/Certpay_GenericSTI/CardTypes_SingleLinePayment/TC_001_SingleLinePayment_VISA" status="ERROR">
+         <error type="ERROR" message="Test Cases/Certpay_GenericSTI/CardTypes_SingleLinePayment/TC_001_SingleLinePayment_VISA FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/Certpay/SingleBureau_SingleLine_VISA' because (of) 'java.io.FileNotFoundException: D:\CertPay\SingleBureau_SingleLinePayment_VISA - Copy.xlsx'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:131)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at TC_001_SingleLinePayment_VISA.run(TC_001_SingleLinePayment_VISA:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1580281290499.run(TempTestSuite1580281290499.groovy:36)
+"/>
+         <system-out><![CDATA[2020-01-29 12:31:34 - [TEST_CASE][ERROR] - Test Cases/Certpay_GenericSTI/CardTypes_SingleLinePayment/TC_001_SingleLinePayment_VISA: Test Cases/Certpay_GenericSTI/CardTypes_SingleLinePayment/TC_001_SingleLinePayment_VISA FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/Certpay/SingleBureau_SingleLine_VISA' because (of) 'java.io.FileNotFoundException: D:\CertPay\SingleBureau_SingleLinePayment_VISA - Copy.xlsx'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:131)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at TC_001_SingleLinePayment_VISA.run(TC_001_SingleLinePayment_VISA:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1580281290499.run(TempTestSuite1580281290499.groovy:36)
+
+
+2020-01-29 12:31:34 - [TEST_STEP][PASSED] - data = findTestData("Certpay/SingleBureau_SingleLine_VISA"): null]]></system-out>
+         <system-err><![CDATA[2020-01-29 12:31:34 - [TEST_CASE][ERROR] - Test Cases/Certpay_GenericSTI/CardTypes_SingleLinePayment/TC_001_SingleLinePayment_VISA: Test Cases/Certpay_GenericSTI/CardTypes_SingleLinePayment/TC_001_SingleLinePayment_VISA FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/Certpay/SingleBureau_SingleLine_VISA' because (of) 'java.io.FileNotFoundException: D:\CertPay\SingleBureau_SingleLinePayment_VISA - Copy.xlsx'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:131)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at TC_001_SingleLinePayment_VISA.run(TC_001_SingleLinePayment_VISA:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1580281290499.run(TempTestSuite1580281290499.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-01-29 12:31:33 - [TEST_SUITE][ERROR] - GenericSTI_DifferentCardType: Test Cases/Certpay_GenericSTI/CardTypes_SingleLinePayment/TC_001_SingleLinePayment_VISA FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/Certpay/SingleBureau_SingleLine_VISA' because (of) 'java.io.FileNotFoundException: D:\CertPay\SingleBureau_SingleLinePayment_VISA - Copy.xlsx'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:131)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at TC_001_SingleLinePayment_VISA.run(TC_001_SingleLinePayment_VISA:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1580281290499.run(TempTestSuite1580281290499.groovy:36)]]></system-out>
+      <system-err><![CDATA[2020-01-29 12:31:33 - [TEST_SUITE][ERROR] - GenericSTI_DifferentCardType: Test Cases/Certpay_GenericSTI/CardTypes_SingleLinePayment/TC_001_SingleLinePayment_VISA FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/Certpay/SingleBureau_SingleLine_VISA' because (of) 'java.io.FileNotFoundException: D:\CertPay\SingleBureau_SingleLinePayment_VISA - Copy.xlsx'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:131)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at TC_001_SingleLinePayment_VISA.run(TC_001_SingleLinePayment_VISA:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1580281290499.run(TempTestSuite1580281290499.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

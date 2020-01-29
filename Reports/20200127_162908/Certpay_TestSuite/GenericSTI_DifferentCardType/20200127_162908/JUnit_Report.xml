@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="GenericSTI_DifferentCardType" time="1.084" tests="1" failures="0" errors="1">
+   <testsuite name="GenericSTI_DifferentCardType" tests="1" failures="0" errors="1" time="1.084" timestamp="2020-01-27 16:29:13" hostname="admin - SYS8" id="Test Suites/Certpay_TestSuite/GenericSTI_DifferentCardType">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\CertpayGeneric\\Reports\\20200127_162908\\Certpay_TestSuite\\GenericSTI_DifferentCardType\\20200127_162908"/>
+         <property name="logFiles" value="E:\\CertpayGeneric\\Reports\\20200127_162908\\Certpay_TestSuite\\GenericSTI_DifferentCardType\\20200127_162908\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="admin - SYS8"/>
+         <property name="hostAddress" value="192.168.1.176"/>
+         <property name="os" value="Windows 10 32bit"/>
+         <property name="katalonVersion" value="7.1.2.1"/>
+      </properties>
+      <testcase name="Test Cases/GenericSTI/TC_001_SingleBureau_SingleLinePayment" time="0.481" classname="Test Cases/GenericSTI/TC_001_SingleBureau_SingleLinePayment" status="ERROR">
+         <error type="ERROR" message="Test Cases/GenericSTI/TC_001_SingleBureau_SingleLinePayment FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/E:/CertpayGeneric/Scripts/GenericSTI/TC_001_SingleBureau_SingleLinePayment/Script1579788851087.groovy: 18: unable to resolve class ExcelData 
+ @ line 18, column 11.
+   ExcelData data = findTestData('Data Files/Certpay/SingleBureau_SingleLine')
+             ^
+
+1 error
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1580122748695.run(TempTestSuite1580122748695.groovy:36)
+"/>
+         <system-out><![CDATA[2020-01-27 16:29:13 - [TEST_CASE][ERROR] - Test Cases/GenericSTI/TC_001_SingleBureau_SingleLinePayment: Test Cases/GenericSTI/TC_001_SingleBureau_SingleLinePayment FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/E:/CertpayGeneric/Scripts/GenericSTI/TC_001_SingleBureau_SingleLinePayment/Script1579788851087.groovy: 18: unable to resolve class ExcelData 
+ @ line 18, column 11.
+   ExcelData data = findTestData('Data Files/Certpay/SingleBureau_SingleLine')
+             ^
+
+1 error
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1580122748695.run(TempTestSuite1580122748695.groovy:36)]]></system-out>
+         <system-err><![CDATA[2020-01-27 16:29:13 - [TEST_CASE][ERROR] - Test Cases/GenericSTI/TC_001_SingleBureau_SingleLinePayment: Test Cases/GenericSTI/TC_001_SingleBureau_SingleLinePayment FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/E:/CertpayGeneric/Scripts/GenericSTI/TC_001_SingleBureau_SingleLinePayment/Script1579788851087.groovy: 18: unable to resolve class ExcelData 
+ @ line 18, column 11.
+   ExcelData data = findTestData('Data Files/Certpay/SingleBureau_SingleLine')
+             ^
+
+1 error
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1580122748695.run(TempTestSuite1580122748695.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-01-27 16:29:13 - [TEST_SUITE][ERROR] - GenericSTI_DifferentCardType: Test Cases/GenericSTI/TC_001_SingleBureau_SingleLinePayment FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/E:/CertpayGeneric/Scripts/GenericSTI/TC_001_SingleBureau_SingleLinePayment/Script1579788851087.groovy: 18: unable to resolve class ExcelData 
+ @ line 18, column 11.
+   ExcelData data = findTestData('Data Files/Certpay/SingleBureau_SingleLine')
+             ^
+
+1 error
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1580122748695.run(TempTestSuite1580122748695.groovy:36)]]></system-out>
+      <system-err><![CDATA[2020-01-27 16:29:13 - [TEST_SUITE][ERROR] - GenericSTI_DifferentCardType: Test Cases/GenericSTI/TC_001_SingleBureau_SingleLinePayment FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/E:/CertpayGeneric/Scripts/GenericSTI/TC_001_SingleBureau_SingleLinePayment/Script1579788851087.groovy: 18: unable to resolve class ExcelData 
+ @ line 18, column 11.
+   ExcelData data = findTestData('Data Files/Certpay/SingleBureau_SingleLine')
+             ^
+
+1 error
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1580122748695.run(TempTestSuite1580122748695.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

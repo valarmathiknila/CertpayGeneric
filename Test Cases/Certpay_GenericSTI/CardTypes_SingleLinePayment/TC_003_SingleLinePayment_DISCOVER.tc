@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_003_SingleLinePayment_DISCOVER</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5dd98ab8-afc4-43dc-b2ce-29a93f4d14f8</testCaseGuid>
+</TestCaseEntity>

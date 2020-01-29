@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="GenericSTI_DifferentCardType" time="45.243" tests="1" failures="0" errors="1">
+   <testsuite name="GenericSTI_DifferentCardType" tests="1" failures="0" errors="1" time="45.243" timestamp="2020-01-27 18:57:57" hostname="admin - SYS8" id="Test Suites/Certpay_TestSuite/GenericSTI_DifferentCardType">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\CertpayGeneric\\Reports\\20200127_185754\\Certpay_TestSuite\\GenericSTI_DifferentCardType\\20200127_185754"/>
+         <property name="logFiles" value="E:\\CertpayGeneric\\Reports\\20200127_185754\\Certpay_TestSuite\\GenericSTI_DifferentCardType\\20200127_185754\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="admin - SYS8"/>
+         <property name="os" value="Windows 10 32bit"/>
+         <property name="katalonVersion" value="7.1.2.1"/>
+         <property name="browser" value="Chrome 79.0.3945.130"/>
+         <property name="hostAddress" value="172.31.252.142"/>
+         <property name="sessionId" value="6520061f67c39e3d560d8e8e939a62a7"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/GenericSTI/TC_001_SingleBureau_SingleLinePayment" time="44.131" classname="Test Cases/GenericSTI/TC_001_SingleBureau_SingleLinePayment" status="ERROR">
+         <error type="ERROR" message="Test Cases/GenericSTI/TC_001_SingleBureau_SingleLinePayment FAILED.
+Reason:
+org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: utilities.SafeActions.acceptAlert() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.lang.String, java.lang.Integer, java.lang.Integer) values: [TestObject - 'Object Repository/CERTPAY_GENERICSTI/Confirm_Payment_Page/CONFIRM_YES', ...]
+Possible solutions: acceptAlert(com.kms.katalon.core.testobject.TestObject, int, int)
+"/>
+         <system-out><![CDATA[2020-01-27 18:57:58 - [TEST_CASE][ERROR] - Test Cases/GenericSTI/TC_001_SingleBureau_SingleLinePayment: Test Cases/GenericSTI/TC_001_SingleBureau_SingleLinePayment FAILED.
+Reason:
+org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: utilities.SafeActions.acceptAlert() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.lang.String, java.lang.Integer, java.lang.Integer) values: [TestObject - 'Object Repository/CERTPAY_GENERICSTI/Confirm_Payment_Page/CONFIRM_YES', ...]
+Possible solutions: acceptAlert(com.kms.katalon.core.testobject.TestObject, int, int)
+
+
+2020-01-27 18:57:58 - [TEST_STEP][PASSED] - data = findTestData("Data Files/Certpay/SingleBureau_SingleLine"): null
+
+2020-01-27 18:57:59 - [TEST_STEP][ERROR] - for (def index : (1..data.getRowNumbers())): No signature of method: utilities.SafeActions.acceptAlert() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.lang.String, java.lang.Integer, java.lang.Integer) values: [TestObject - 'Object Repository/CERTPAY_GENERICSTI/Confirm_Payment_Page/CONFIRM_YES', ...]
+Possible solutions: acceptAlert(com.kms.katalon.core.testobject.TestObject, int, int)
+
+2020-01-27 18:57:59 - [TEST_STEP][PASSED] - cardNum = data.getValue("CardNumber", index): null
+
+2020-01-27 18:57:59 - [TEST_STEP][PASSED] - expMonth = data.getValue("ExpMonth", index): null
+
+2020-01-27 18:57:59 - [TEST_STEP][PASSED] - expYear = data.getValue("ExpYear", index): null
+
+2020-01-27 18:57:59 - [TEST_STEP][PASSED] - securityCode = data.getValue("SecurityCode", index): null
+
+2020-01-27 18:57:59 - [TEST_STEP][PASSED] - cardType = data.getValue("CardType", index): null
+
+2020-01-27 18:57:59 - [TEST_STEP][PASSED] - utilities.SafeActions.openBrowser(Genericsti_url, [pageLoadTime]): Browser launched successfully
+
+2020-01-27 18:58:00 - [MESSAGE][INFO] - Opening Browser
+
+2020-01-27 18:58:00 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-01-27 18:58:00 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-01-27 18:58:08 - [MESSAGE][PASSED] - Browser is opened with url: 'https://qa-certpaygenericsti.faps.net/genericsti/demo/'
+
+2020-01-27 18:58:09 - [MESSAGE][PASSED] - Current window maximized
+
+2020-01-27 18:58:09 - [MESSAGE][PASSED] - Browser launched successfully
+
+2020-01-27 18:58:09 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_GENERICSTI/Demo_Pages/BEGIN_PAYMENT"), "Begin Payment", [pageLoadTime]): GenericSTI_DifferentCardType.ts:Clicked on the Begin Payment
+
+2020-01-27 18:58:09 - [MESSAGE][INFO] - safeClicking
+
+2020-01-27 18:58:10 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Demo_Pages/BEGIN_PAYMENT' is present
+
+2020-01-27 18:58:10 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Demo_Pages/BEGIN_PAYMENT' is clickable
+
+2020-01-27 18:58:12 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_GENERICSTI/Demo_Pages/BEGIN_PAYMENT' is clicked on
+
+2020-01-27 18:58:12 - [MESSAGE][PASSED] - GenericSTI_DifferentCardType.ts:Clicked on the Begin Payment
+
+2020-01-27 18:58:12 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_GENERICSTI/XML_Page/SUBMIT"), "Submit XML", [pageLoadTime]): GenericSTI_DifferentCardType.ts:Clicked on the Submit XML
+
+2020-01-27 18:58:12 - [MESSAGE][INFO] - safeClicking
+
+2020-01-27 18:58:12 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/XML_Page/SUBMIT' is present
+
+2020-01-27 18:58:13 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/XML_Page/SUBMIT' is clickable
+
+2020-01-27 18:58:17 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_GENERICSTI/XML_Page/SUBMIT' is clicked on
+
+2020-01-27 18:58:17 - [MESSAGE][PASSED] - GenericSTI_DifferentCardType.ts:Clicked on the Submit XML
+
+2020-01-27 18:58:17 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_GENERICSTI/Payment_Information_Page/VISA"), "VISA Card", [pageLoadTime]): GenericSTI_DifferentCardType.ts:Clicked on the VISA Card
+
+2020-01-27 18:58:17 - [MESSAGE][INFO] - safeClicking
+
+2020-01-27 18:58:18 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/VISA' is present
+
+2020-01-27 18:58:18 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/VISA' is clickable
+
+2020-01-27 18:58:23 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/VISA' is clicked on
+
+2020-01-27 18:58:23 - [MESSAGE][PASSED] - GenericSTI_DifferentCardType.ts:Clicked on the VISA Card
+
+2020-01-27 18:58:23 - [TEST_STEP][PASSED] - CardNumber = pages.Genericsti.setUserPaymentDetails(cardNum): GenericSTI_DifferentCardType.ts:Entered'4358809181126610 into CardNum
+
+2020-01-27 18:58:23 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/CARD_NUMBER' is present
+
+2020-01-27 18:58:23 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/CARD_NUMBER' is visible
+
+2020-01-27 18:58:24 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/CARD_NUMBER' is present
+
+2020-01-27 18:58:25 - [MESSAGE][PASSED] - Text '4358809181126610' is set on object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/CARD_NUMBER'
+
+2020-01-27 18:58:25 - [MESSAGE][PASSED] - GenericSTI_DifferentCardType.ts:Entered'4358809181126610 into CardNum
+
+2020-01-27 18:58:25 - [TEST_STEP][PASSED] - pages.Genericsti.setExpDate(expMonth, expYear, securityCode): GenericSTI_DifferentCardType.ts:Entered'207 into securityCode
+
+2020-01-27 18:58:25 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/EXP_MONTH' is visible
+
+2020-01-27 18:58:26 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/EXP_MONTH' is present
+
+2020-01-27 18:58:27 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/EXP_MONTH' is clicked on
+
+2020-01-27 18:58:28 - [MESSAGE][PASSED] - All options with label '3' are selected in object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/EXP_MONTH'  using regular expression
+
+2020-01-27 18:58:28 - [MESSAGE][PASSED] - selected dropdown option by visible text  3from expMonth
+
+2020-01-27 18:58:29 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/EXP_YEAR' is visible
+
+2020-01-27 18:58:29 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/EXP_YEAR' is present
+
+2020-01-27 18:58:30 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/EXP_YEAR' is clicked on
+
+2020-01-27 18:58:32 - [MESSAGE][PASSED] - All options with label '2022' are selected in object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/EXP_YEAR'  using regular expression
+
+2020-01-27 18:58:32 - [MESSAGE][PASSED] - selected dropdown option by visible text  2022from  expYear
+
+2020-01-27 18:58:32 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/SECURITY_CODE' is present
+
+2020-01-27 18:58:32 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/SECURITY_CODE' is visible
+
+2020-01-27 18:58:33 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/SECURITY_CODE' is present
+
+2020-01-27 18:58:34 - [MESSAGE][PASSED] - Text '207' is set on object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/SECURITY_CODE'
+
+2020-01-27 18:58:34 - [MESSAGE][PASSED] - GenericSTI_DifferentCardType.ts:Entered'207 into securityCode
+
+2020-01-27 18:58:34 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_GENERICSTI/Payment_Information_Page/NEXT"), "Next", [pageLoadTime]): GenericSTI_DifferentCardType.ts:Clicked on the Next
+
+2020-01-27 18:58:34 - [MESSAGE][INFO] - safeClicking
+
+2020-01-27 18:58:34 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/NEXT' is present
+
+2020-01-27 18:58:35 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/NEXT' is clickable
+
+2020-01-27 18:58:39 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/NEXT' is clicked on
+
+2020-01-27 18:58:39 - [MESSAGE][PASSED] - GenericSTI_DifferentCardType.ts:Clicked on the Next
+
+2020-01-27 18:58:39 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_GENERICSTI/Review_Payment_Page/PROCESS_PAYMENT"), "Process payment", [pageLoadTime]): GenericSTI_DifferentCardType.ts:Clicked on the Process payment
+
+2020-01-27 18:58:39 - [MESSAGE][INFO] - safeClicking
+
+2020-01-27 18:58:40 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Review_Payment_Page/PROCESS_PAYMENT' is present
+
+2020-01-27 18:58:40 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Review_Payment_Page/PROCESS_PAYMENT' is clickable
+
+2020-01-27 18:58:42 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_GENERICSTI/Review_Payment_Page/PROCESS_PAYMENT' is clicked on
+
+2020-01-27 18:58:42 - [MESSAGE][PASSED] - GenericSTI_DifferentCardType.ts:Clicked on the Process payment
+
+2020-01-27 18:58:42 - [TEST_STEP][ERROR] - utilities.SafeActions.acceptAlert(findTestObject("CERTPAY_GENERICSTI/Confirm_Payment_Page/CONFIRM_YES"), "Confirm payment", 4, 2): No signature of method: utilities.SafeActions.acceptAlert() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.lang.String, java.lang.Integer, java.lang.Integer) values: [TestObject - 'Object Repository/CERTPAY_GENERICSTI/Confirm_Payment_Page/CONFIRM_YES', ...]
+Possible solutions: acceptAlert(com.kms.katalon.core.testobject.TestObject, int, int)
+
+2020-01-27 18:58:42 - [MESSAGE][ERROR] - No signature of method: utilities.SafeActions.acceptAlert() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.lang.String, java.lang.Integer, java.lang.Integer) values: [TestObject - 'Object Repository/CERTPAY_GENERICSTI/Confirm_Payment_Page/CONFIRM_YES', ...]
+Possible solutions: acceptAlert(com.kms.katalon.core.testobject.TestObject, int, int)]]></system-out>
+         <system-err><![CDATA[2020-01-27 18:57:58 - [TEST_CASE][ERROR] - Test Cases/GenericSTI/TC_001_SingleBureau_SingleLinePayment: Test Cases/GenericSTI/TC_001_SingleBureau_SingleLinePayment FAILED.
+Reason:
+org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: utilities.SafeActions.acceptAlert() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.lang.String, java.lang.Integer, java.lang.Integer) values: [TestObject - 'Object Repository/CERTPAY_GENERICSTI/Confirm_Payment_Page/CONFIRM_YES', ...]
+Possible solutions: acceptAlert(com.kms.katalon.core.testobject.TestObject, int, int)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-01-27 18:57:57 - [TEST_SUITE][ERROR] - GenericSTI_DifferentCardType: Test Cases/GenericSTI/TC_001_SingleBureau_SingleLinePayment FAILED.
+Reason:
+org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: utilities.SafeActions.acceptAlert() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.lang.String, java.lang.Integer, java.lang.Integer) values: [TestObject - 'Object Repository/CERTPAY_GENERICSTI/Confirm_Payment_Page/CONFIRM_YES', ...]
+Possible solutions: acceptAlert(com.kms.katalon.core.testobject.TestObject, int, int)]]></system-out>
+      <system-err><![CDATA[2020-01-27 18:57:57 - [TEST_SUITE][ERROR] - GenericSTI_DifferentCardType: Test Cases/GenericSTI/TC_001_SingleBureau_SingleLinePayment FAILED.
+Reason:
+org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: utilities.SafeActions.acceptAlert() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.lang.String, java.lang.Integer, java.lang.Integer) values: [TestObject - 'Object Repository/CERTPAY_GENERICSTI/Confirm_Payment_Page/CONFIRM_YES', ...]
+Possible solutions: acceptAlert(com.kms.katalon.core.testobject.TestObject, int, int)]]></system-err>
+   </testsuite>
+</testsuites>

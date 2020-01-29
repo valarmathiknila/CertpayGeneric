@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="GenericSTI_DifferentCardType" time="3.349" tests="1" failures="0" errors="1">
+   <testsuite name="GenericSTI_DifferentCardType" tests="1" failures="0" errors="1" time="3.349" timestamp="2020-01-29 12:23:48" hostname="admin - SYS8" id="Test Suites/Certpay_TestSuite/GenericSTI_DifferentCardType">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\CertpayGeneric\\Reports\\20200129_122339\\Certpay_TestSuite\\GenericSTI_DifferentCardType\\20200129_122340"/>
+         <property name="logFiles" value="D:\\CertpayGeneric\\Reports\\20200129_122339\\Certpay_TestSuite\\GenericSTI_DifferentCardType\\20200129_122340\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="admin - SYS8"/>
+         <property name="hostAddress" value="192.168.1.176"/>
+         <property name="os" value="Windows 10 32bit"/>
+         <property name="katalonVersion" value="7.1.2.1"/>
+      </properties>
+      <testcase name="Test Cases/Certpay_GenericSTI/CardTypes_SingleLinePayment/TC_004_SingleLinePayment_AMX" time="2.532" classname="Test Cases/Certpay_GenericSTI/CardTypes_SingleLinePayment/TC_004_SingleLinePayment_AMX" status="ERROR">
+         <error type="ERROR" message="Test Cases/Certpay_GenericSTI/CardTypes_SingleLinePayment/TC_004_SingleLinePayment_AMX FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Genericsti_url for class: internal.GlobalVariable
+	at TC_004_SingleLinePayment_AMX.run(TC_004_SingleLinePayment_AMX:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1580280820290.run(TempTestSuite1580280820290.groovy:36)
+"/>
+         <system-out><![CDATA[2020-01-29 12:23:49 - [TEST_CASE][ERROR] - Test Cases/Certpay_GenericSTI/CardTypes_SingleLinePayment/TC_004_SingleLinePayment_AMX: Test Cases/Certpay_GenericSTI/CardTypes_SingleLinePayment/TC_004_SingleLinePayment_AMX FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Genericsti_url for class: internal.GlobalVariable
+	at TC_004_SingleLinePayment_AMX.run(TC_004_SingleLinePayment_AMX:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1580280820290.run(TempTestSuite1580280820290.groovy:36)
+
+
+2020-01-29 12:23:49 - [TEST_STEP][PASSED] - data = findTestData("Certpay/SingleBureau_SingleLine_AMX"): null
+
+2020-01-29 12:23:51 - [TEST_STEP][PASSED] - for (def index : (1..data.getRowNumbers())): null
+
+2020-01-29 12:23:51 - [TEST_STEP][PASSED] - cardNum = data.getValue("CardNumber", index): null
+
+2020-01-29 12:23:51 - [TEST_STEP][PASSED] - expMonth = data.getValue("ExpMonth", index): null
+
+2020-01-29 12:23:51 - [TEST_STEP][PASSED] - expYear = data.getValue("ExpYear", index): null
+
+2020-01-29 12:23:51 - [TEST_STEP][PASSED] - securityCode = data.getValue("SecurityCode", index): null
+
+2020-01-29 12:23:51 - [TEST_STEP][PASSED] - cardType = data.getValue("CardType", index): null
+
+2020-01-29 12:23:51 - [TEST_STEP][PASSED] - utilities.SafeActions.openBrowser(Genericsti_url, [pageLoadTime]): null]]></system-out>
+         <system-err><![CDATA[2020-01-29 12:23:49 - [TEST_CASE][ERROR] - Test Cases/Certpay_GenericSTI/CardTypes_SingleLinePayment/TC_004_SingleLinePayment_AMX: Test Cases/Certpay_GenericSTI/CardTypes_SingleLinePayment/TC_004_SingleLinePayment_AMX FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Genericsti_url for class: internal.GlobalVariable
+	at TC_004_SingleLinePayment_AMX.run(TC_004_SingleLinePayment_AMX:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1580280820290.run(TempTestSuite1580280820290.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-01-29 12:23:48 - [TEST_SUITE][ERROR] - GenericSTI_DifferentCardType: Test Cases/Certpay_GenericSTI/CardTypes_SingleLinePayment/TC_004_SingleLinePayment_AMX FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Genericsti_url for class: internal.GlobalVariable
+	at TC_004_SingleLinePayment_AMX.run(TC_004_SingleLinePayment_AMX:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1580280820290.run(TempTestSuite1580280820290.groovy:36)]]></system-out>
+      <system-err><![CDATA[2020-01-29 12:23:48 - [TEST_SUITE][ERROR] - GenericSTI_DifferentCardType: Test Cases/Certpay_GenericSTI/CardTypes_SingleLinePayment/TC_004_SingleLinePayment_AMX FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Genericsti_url for class: internal.GlobalVariable
+	at TC_004_SingleLinePayment_AMX.run(TC_004_SingleLinePayment_AMX:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1580280820290.run(TempTestSuite1580280820290.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

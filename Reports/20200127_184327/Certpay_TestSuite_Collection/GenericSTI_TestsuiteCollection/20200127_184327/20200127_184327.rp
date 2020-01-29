@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportCollectionEntity>
+   <description></description>
+   <name>20200127_184327</name>
+   <tag></tag>
+   <displayName>20200127_184327</displayName>
+   <reportItemDescriptions>
+      <ReportItemDescription>
+         <reportLocation>Reports/20200127_184327/Certpay_TestSuite/GenericSTI_DifferentCardType/20200127_184327</reportLocation>
+         <runConfigDescription>
+            <groupName>Web Desktop</groupName>
+            <profileName>CertPay</profileName>
+            <runConfigurationId>Chrome</runConfigurationId>
+         </runConfigDescription>
+      </ReportItemDescription>
+   </reportItemDescriptions>
+   <testSuiteCollectionId>Test Suites/Certpay_TestSuite_Collection/GenericSTI_TestsuiteCollection</testSuiteCollectionId>
+</ReportCollectionEntity>

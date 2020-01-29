@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="GenericSTI_DifferentCardType" time="13.839" tests="1" failures="0" errors="1">
+   <testsuite name="GenericSTI_DifferentCardType" tests="1" failures="0" errors="1" time="13.839" timestamp="2020-01-27 17:31:48" hostname="admin - SYS8" id="Test Suites/Certpay_TestSuite/GenericSTI_DifferentCardType">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\CertpayGeneric\\Reports\\20200127_173144\\Certpay_TestSuite\\GenericSTI_DifferentCardType\\20200127_173145"/>
+         <property name="logFiles" value="E:\\CertpayGeneric\\Reports\\20200127_173144\\Certpay_TestSuite\\GenericSTI_DifferentCardType\\20200127_173145\\execution0.log"/>
+         <property name="attachments" value="E:\\CertpayGeneric\\Reports\\20200127_173144\\Certpay_TestSuite\\GenericSTI_DifferentCardType\\20200127_173145\\1580126520886.png"/>
+         <property name="hostName" value="admin - SYS8"/>
+         <property name="os" value="Windows 10 32bit"/>
+         <property name="katalonVersion" value="7.1.2.1"/>
+         <property name="browser" value="Chrome 79.0.3945.130"/>
+         <property name="hostAddress" value="172.31.252.142"/>
+         <property name="sessionId" value="c5ad0aaac549d2aebf87e30815cdbd32"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/GenericSTI/TC_001_SingleBureau_SingleLinePayment" time="12.677" classname="Test Cases/GenericSTI/TC_001_SingleBureau_SingleLinePayment" status="ERROR">
+         <error type="ERROR" message="Test Cases/GenericSTI/TC_001_SingleBureau_SingleLinePayment FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: RunConfiguration for class: utilities.Syn
+	at utilities.Syn.getTestCasename(Syn.groovy:38)
+	at utilities.Syn$getTestCasename$0.call(Unknown Source)
+	at utilities.SafeActions.safeClick(SafeActions.groovy:182)
+	at utilities.SafeActions.invokeMethod(SafeActions.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at TC_001_SingleBureau_SingleLinePayment.run(TC_001_SingleBureau_SingleLinePayment:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1580126505077.run(TempTestSuite1580126505077.groovy:36)
+"/>
+         <system-out><![CDATA[2020-01-27 17:31:48 - [TEST_CASE][ERROR] - Test Cases/GenericSTI/TC_001_SingleBureau_SingleLinePayment: Test Cases/GenericSTI/TC_001_SingleBureau_SingleLinePayment FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: RunConfiguration for class: utilities.Syn
+	at utilities.Syn.getTestCasename(Syn.groovy:38)
+	at utilities.Syn$getTestCasename$0.call(Unknown Source)
+	at utilities.SafeActions.safeClick(SafeActions.groovy:182)
+	at utilities.SafeActions.invokeMethod(SafeActions.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at TC_001_SingleBureau_SingleLinePayment.run(TC_001_SingleBureau_SingleLinePayment:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1580126505077.run(TempTestSuite1580126505077.groovy:36)
+
+
+2020-01-27 17:31:49 - [TEST_STEP][PASSED] - data = findTestData("Data Files/Certpay/SingleBureau_SingleLine"): null
+
+2020-01-27 17:31:50 - [TEST_STEP][ERROR] - for (def index : (1..data.getRowNumbers())): No such property: RunConfiguration for class: utilities.Syn
+
+2020-01-27 17:31:50 - [TEST_STEP][PASSED] - cardNum = data.getValue("CardNumber", index): null
+
+2020-01-27 17:31:50 - [TEST_STEP][PASSED] - expMonth = data.getValue("ExpMonth", index): null
+
+2020-01-27 17:31:50 - [TEST_STEP][PASSED] - expYear = data.getValue("ExpYear", index): null
+
+2020-01-27 17:31:50 - [TEST_STEP][PASSED] - securityCode = data.getValue("SecurityCode", index): null
+
+2020-01-27 17:31:50 - [TEST_STEP][PASSED] - cardType = data.getValue("CardType", index): null
+
+2020-01-27 17:31:50 - [TEST_STEP][PASSED] - utilities.SafeActions.openBrowser(Genericsti_url, [pageLoadTime]): Browser launched successfully
+
+2020-01-27 17:31:50 - [MESSAGE][INFO] - Opening Browser
+
+2020-01-27 17:31:50 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-01-27 17:31:50 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-01-27 17:31:59 - [MESSAGE][PASSED] - Browser is opened with url: 'https://qa-certpaygenericsti.faps.net/genericsti/demo/'
+
+2020-01-27 17:32:00 - [MESSAGE][PASSED] - Current window maximized
+
+2020-01-27 17:32:00 - [MESSAGE][PASSED] - Browser launched successfully
+
+2020-01-27 17:32:00 - [TEST_STEP][ERROR] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_GENERICSTI/Demo_ Pages/BEGIN_PAYMNET"), "Begin Payment", [pageLoadTime]): No such property: RunConfiguration for class: utilities.Syn
+
+2020-01-27 17:32:00 - [MESSAGE][WARNING] - Test object with id 'Object Repository/CERTPAY_GENERICSTI/Demo_ Pages/BEGIN_PAYMNET' does not exist
+
+2020-01-27 17:32:00 - [MESSAGE][INFO] - safeClicking
+
+2020-01-27 17:32:00 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2020-01-27 17:32:01 - [MESSAGE][FAILED] - Unable to verify object is present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$1.call(Unknown Source)
+	at utilities.SafeActions.safeClick(SafeActions.groovy:168)
+	at utilities.SafeActions.invokeMethod(SafeActions.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at TC_001_SingleBureau_SingleLinePayment.run(TC_001_SingleBureau_SingleLinePayment:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1580126505077.run(TempTestSuite1580126505077.groovy:36)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$1.call(Unknown Source)
+	at utilities.SafeActions.safeClick(SafeActions.groovy:168)
+	at utilities.SafeActions.invokeMethod(SafeActions.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at Script1579788851087.run(Script1579788851087.groovy:39)
+	... 13 more
+)
+[[ATTACHMENT|E:\\CertpayGeneric\\Reports\\20200127_173144\\Certpay_TestSuite\\GenericSTI_DifferentCardType\\20200127_173145\\1580126520886.png]]
+
+2020-01-27 17:32:01 - [MESSAGE][ERROR] - No such property: RunConfiguration for class: utilities.Syn]]></system-out>
+         <system-err><![CDATA[2020-01-27 17:31:48 - [TEST_CASE][ERROR] - Test Cases/GenericSTI/TC_001_SingleBureau_SingleLinePayment: Test Cases/GenericSTI/TC_001_SingleBureau_SingleLinePayment FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: RunConfiguration for class: utilities.Syn
+	at utilities.Syn.getTestCasename(Syn.groovy:38)
+	at utilities.Syn$getTestCasename$0.call(Unknown Source)
+	at utilities.SafeActions.safeClick(SafeActions.groovy:182)
+	at utilities.SafeActions.invokeMethod(SafeActions.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at TC_001_SingleBureau_SingleLinePayment.run(TC_001_SingleBureau_SingleLinePayment:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1580126505077.run(TempTestSuite1580126505077.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-01-27 17:31:48 - [TEST_SUITE][ERROR] - GenericSTI_DifferentCardType: Test Cases/GenericSTI/TC_001_SingleBureau_SingleLinePayment FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: RunConfiguration for class: utilities.Syn
+	at utilities.Syn.getTestCasename(Syn.groovy:38)
+	at utilities.Syn$getTestCasename$0.call(Unknown Source)
+	at utilities.SafeActions.safeClick(SafeActions.groovy:182)
+	at utilities.SafeActions.invokeMethod(SafeActions.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at TC_001_SingleBureau_SingleLinePayment.run(TC_001_SingleBureau_SingleLinePayment:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1580126505077.run(TempTestSuite1580126505077.groovy:36)]]></system-out>
+      <system-err><![CDATA[2020-01-27 17:31:48 - [TEST_SUITE][ERROR] - GenericSTI_DifferentCardType: Test Cases/GenericSTI/TC_001_SingleBureau_SingleLinePayment FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: RunConfiguration for class: utilities.Syn
+	at utilities.Syn.getTestCasename(Syn.groovy:38)
+	at utilities.Syn$getTestCasename$0.call(Unknown Source)
+	at utilities.SafeActions.safeClick(SafeActions.groovy:182)
+	at utilities.SafeActions.invokeMethod(SafeActions.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at TC_001_SingleBureau_SingleLinePayment.run(TC_001_SingleBureau_SingleLinePayment:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1580126505077.run(TempTestSuite1580126505077.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

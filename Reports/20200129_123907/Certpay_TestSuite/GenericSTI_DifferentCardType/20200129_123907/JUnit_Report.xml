@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="GenericSTI_DifferentCardType" time="183.4" tests="1" failures="0" errors="1">
+   <testsuite name="GenericSTI_DifferentCardType" tests="1" failures="0" errors="1" time="183.4" timestamp="2020-01-29 12:39:16" hostname="admin - SYS8" id="Test Suites/Certpay_TestSuite/GenericSTI_DifferentCardType">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\CertpayGeneric\\Reports\\20200129_123907\\Certpay_TestSuite\\GenericSTI_DifferentCardType\\20200129_123907"/>
+         <property name="logFiles" value="D:\\CertpayGeneric\\Reports\\20200129_123907\\Certpay_TestSuite\\GenericSTI_DifferentCardType\\20200129_123907\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="admin - SYS8"/>
+         <property name="os" value="Windows 10 32bit"/>
+         <property name="katalonVersion" value="7.1.2.1"/>
+         <property name="browser" value="Chrome 79.0.3945.130"/>
+         <property name="hostAddress" value="172.31.252.142"/>
+         <property name="sessionId" value="ce7f89cf24b6aed94b26593dd22f1ad4"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Certpay_GenericSTI/CardTypes_SingleLinePayment/TC_001_SingleLinePayment_VISA" time="181.311" classname="Test Cases/Certpay_GenericSTI/CardTypes_SingleLinePayment/TC_001_SingleLinePayment_VISA" status="ERROR">
+         <error type="ERROR" message="Test Cases/Certpay_GenericSTI/CardTypes_SingleLinePayment/TC_001_SingleLinePayment_VISA FAILED.
+Reason:
+java.lang.StringIndexOutOfBoundsException: String index out of range: -12
+	at java_lang_String$substring$2.call(Unknown Source)
+	at pages.Genericsti.setUserPaymentDetails(Genericsti.groovy:69)
+	at pages.Genericsti.invokeMethod(Genericsti.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at TC_001_SingleLinePayment_VISA.run(TC_001_SingleLinePayment_VISA:50)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1580281747361.run(TempTestSuite1580281747361.groovy:36)
+"/>
+         <system-out><![CDATA[2020-01-29 12:39:16 - [TEST_CASE][ERROR] - Test Cases/Certpay_GenericSTI/CardTypes_SingleLinePayment/TC_001_SingleLinePayment_VISA: Test Cases/Certpay_GenericSTI/CardTypes_SingleLinePayment/TC_001_SingleLinePayment_VISA FAILED.
+Reason:
+java.lang.StringIndexOutOfBoundsException: String index out of range: -12
+	at java_lang_String$substring$2.call(Unknown Source)
+	at pages.Genericsti.setUserPaymentDetails(Genericsti.groovy:69)
+	at pages.Genericsti.invokeMethod(Genericsti.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at TC_001_SingleLinePayment_VISA.run(TC_001_SingleLinePayment_VISA:50)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1580281747361.run(TempTestSuite1580281747361.groovy:36)
+
+
+2020-01-29 12:39:17 - [TEST_STEP][PASSED] - data = findTestData("Certpay/SingleBureau_SingleLine_VISA"): null
+
+2020-01-29 12:39:18 - [TEST_STEP][ERROR] - for (def index : (1..data.getRowNumbers())): String index out of range: -12
+
+2020-01-29 12:39:18 - [TEST_STEP][PASSED] - cardNum = data.getValue("CardNumber", index): null
+
+2020-01-29 12:39:18 - [TEST_STEP][PASSED] - expMonth = data.getValue("ExpMonth", index): null
+
+2020-01-29 12:39:18 - [TEST_STEP][PASSED] - expYear = data.getValue("ExpYear", index): null
+
+2020-01-29 12:39:18 - [TEST_STEP][PASSED] - securityCode = data.getValue("SecurityCode", index): null
+
+2020-01-29 12:39:18 - [TEST_STEP][PASSED] - cardType = data.getValue("CardType", index): null
+
+2020-01-29 12:39:18 - [TEST_STEP][PASSED] - utilities.SafeActions.openBrowser(Genericsti_url, [pageLoadTime]): Browser launched successfully
+
+2020-01-29 12:39:19 - [MESSAGE][INFO] - Opening Browser
+
+2020-01-29 12:39:19 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-01-29 12:39:19 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-01-29 12:39:45 - [MESSAGE][PASSED] - Browser is opened with url: 'https://qa-certpaygenericsti.faps.net/genericsti/demo/'
+
+2020-01-29 12:39:46 - [MESSAGE][PASSED] - Current window maximized
+
+2020-01-29 12:39:46 - [MESSAGE][PASSED] - Browser launched successfully
+
+2020-01-29 12:39:46 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_GENERICSTI/Demo_Pages/BEGIN_PAYMENT"), "Begin Payment", [pageLoadTime]): GenericSTI_DifferentCardType.ts:Clicked on the Begin Payment
+
+2020-01-29 12:39:46 - [MESSAGE][INFO] - safeClicking
+
+2020-01-29 12:39:47 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Demo_Pages/BEGIN_PAYMENT' is present
+
+2020-01-29 12:39:49 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Demo_Pages/BEGIN_PAYMENT' is clickable
+
+2020-01-29 12:39:53 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_GENERICSTI/Demo_Pages/BEGIN_PAYMENT' is clicked on
+
+2020-01-29 12:39:53 - [MESSAGE][PASSED] - GenericSTI_DifferentCardType.ts:Clicked on the Begin Payment
+
+2020-01-29 12:39:53 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_GENERICSTI/XML_Page/SUBMIT"), "Submit XML", [pageLoadTime]): GenericSTI_DifferentCardType.ts:Clicked on the Submit XML
+
+2020-01-29 12:39:53 - [MESSAGE][INFO] - safeClicking
+
+2020-01-29 12:39:53 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/XML_Page/SUBMIT' is present
+
+2020-01-29 12:39:53 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/XML_Page/SUBMIT' is clickable
+
+2020-01-29 12:40:04 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_GENERICSTI/XML_Page/SUBMIT' is clicked on
+
+2020-01-29 12:40:04 - [MESSAGE][PASSED] - GenericSTI_DifferentCardType.ts:Clicked on the Submit XML
+
+2020-01-29 12:40:04 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_GENERICSTI/Payment_Information_Page/VISA"), "VISA Card", [pageLoadTime]): GenericSTI_DifferentCardType.ts:Clicked on the VISA Card
+
+2020-01-29 12:40:04 - [MESSAGE][INFO] - safeClicking
+
+2020-01-29 12:40:05 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/VISA' is present
+
+2020-01-29 12:40:06 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/VISA' is clickable
+
+2020-01-29 12:40:10 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/VISA' is clicked on
+
+2020-01-29 12:40:10 - [MESSAGE][PASSED] - GenericSTI_DifferentCardType.ts:Clicked on the VISA Card
+
+2020-01-29 12:40:10 - [TEST_STEP][PASSED] - CardNumber = pages.Genericsti.setUserPaymentDetails(cardNum): GenericSTI_DifferentCardType.ts:Entered'4111111111111111 into CardNum
+
+2020-01-29 12:40:11 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/CARD_NUMBER' is present
+
+2020-01-29 12:40:11 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/CARD_NUMBER' is visible
+
+2020-01-29 12:40:11 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/CARD_NUMBER' is present
+
+2020-01-29 12:40:13 - [MESSAGE][PASSED] - Text '4111111111111111' is set on object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/CARD_NUMBER'
+
+2020-01-29 12:40:13 - [MESSAGE][PASSED] - GenericSTI_DifferentCardType.ts:Entered'4111111111111111 into CardNum
+
+2020-01-29 12:40:13 - [TEST_STEP][PASSED] - pages.Genericsti.setExpDate(expMonth, expYear, securityCode): GenericSTI_DifferentCardType.ts:Entered'207 into securityCode
+
+2020-01-29 12:40:14 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/EXP_MONTH' is visible
+
+2020-01-29 12:40:14 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/EXP_MONTH' is present
+
+2020-01-29 12:40:15 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/EXP_MONTH' is clicked on
+
+2020-01-29 12:40:17 - [MESSAGE][PASSED] - All options with label '3' are selected in object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/EXP_MONTH'  using regular expression
+
+2020-01-29 12:40:17 - [MESSAGE][PASSED] - selected dropdown option by visible text  3from expMonth
+
+2020-01-29 12:40:17 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/EXP_YEAR' is visible
+
+2020-01-29 12:40:18 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/EXP_YEAR' is present
+
+2020-01-29 12:40:19 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/EXP_YEAR' is clicked on
+
+2020-01-29 12:40:20 - [MESSAGE][PASSED] - All options with label '2022' are selected in object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/EXP_YEAR'  using regular expression
+
+2020-01-29 12:40:20 - [MESSAGE][PASSED] - selected dropdown option by visible text  2022from  expYear
+
+2020-01-29 12:40:20 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/SECURITY_CODE' is present
+
+2020-01-29 12:40:21 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/SECURITY_CODE' is visible
+
+2020-01-29 12:40:21 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/SECURITY_CODE' is present
+
+2020-01-29 12:40:22 - [MESSAGE][PASSED] - Text '207' is set on object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/SECURITY_CODE'
+
+2020-01-29 12:40:22 - [MESSAGE][PASSED] - GenericSTI_DifferentCardType.ts:Entered'207 into securityCode
+
+2020-01-29 12:40:22 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_GENERICSTI/Payment_Information_Page/NEXT"), "Next", [pageLoadTime]): GenericSTI_DifferentCardType.ts:Clicked on the Next
+
+2020-01-29 12:40:22 - [MESSAGE][INFO] - safeClicking
+
+2020-01-29 12:40:23 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/NEXT' is present
+
+2020-01-29 12:40:23 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/NEXT' is clickable
+
+2020-01-29 12:40:26 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/NEXT' is clicked on
+
+2020-01-29 12:40:26 - [MESSAGE][PASSED] - GenericSTI_DifferentCardType.ts:Clicked on the Next
+
+2020-01-29 12:40:26 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_GENERICSTI/Review_Payment_Page/PROCESS_PAYMENT"), "Process payment", [pageLoadTime]): GenericSTI_DifferentCardType.ts:Clicked on the Process payment
+
+2020-01-29 12:40:26 - [MESSAGE][INFO] - safeClicking
+
+2020-01-29 12:40:28 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Review_Payment_Page/PROCESS_PAYMENT' is present
+
+2020-01-29 12:40:28 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Review_Payment_Page/PROCESS_PAYMENT' is clickable
+
+2020-01-29 12:40:29 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_GENERICSTI/Review_Payment_Page/PROCESS_PAYMENT' is clicked on
+
+2020-01-29 12:40:29 - [MESSAGE][PASSED] - GenericSTI_DifferentCardType.ts:Clicked on the Process payment
+
+2020-01-29 12:40:29 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_GENERICSTI/Confirm_Payment_Page/CONFIRM_YES"), "Process payment", [pageLoadTime]): GenericSTI_DifferentCardType.ts:Clicked on the Process payment
+
+2020-01-29 12:40:30 - [MESSAGE][INFO] - safeClicking
+
+2020-01-29 12:40:30 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Confirm_Payment_Page/CONFIRM_YES' is present
+
+2020-01-29 12:40:30 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Confirm_Payment_Page/CONFIRM_YES' is clickable
+
+2020-01-29 12:40:38 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_GENERICSTI/Confirm_Payment_Page/CONFIRM_YES' is clicked on
+
+2020-01-29 12:40:38 - [MESSAGE][PASSED] - GenericSTI_DifferentCardType.ts:Clicked on the Process payment
+
+2020-01-29 12:40:38 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_GENERICSTI/Payment_Details_Verification_Page/NEXT"), "Process payment", [pageLoadTime]): GenericSTI_DifferentCardType.ts:Clicked on the Process payment
+
+2020-01-29 12:40:38 - [MESSAGE][INFO] - safeClicking
+
+2020-01-29 12:40:40 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Details_Verification_Page/NEXT' is present
+
+2020-01-29 12:40:40 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Details_Verification_Page/NEXT' is clickable
+
+2020-01-29 12:40:50 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_GENERICSTI/Payment_Details_Verification_Page/NEXT' is clicked on
+
+2020-01-29 12:40:50 - [MESSAGE][PASSED] - GenericSTI_DifferentCardType.ts:Clicked on the Process payment
+
+2020-01-29 12:40:50 - [TEST_STEP][PASSED] - cardNum = data.getValue("CardNumber", index): null
+
+2020-01-29 12:40:50 - [TEST_STEP][PASSED] - expMonth = data.getValue("ExpMonth", index): null
+
+2020-01-29 12:40:50 - [TEST_STEP][PASSED] - expYear = data.getValue("ExpYear", index): null
+
+2020-01-29 12:40:50 - [TEST_STEP][PASSED] - securityCode = data.getValue("SecurityCode", index): null
+
+2020-01-29 12:40:50 - [TEST_STEP][PASSED] - cardType = data.getValue("CardType", index): null
+
+2020-01-29 12:40:50 - [TEST_STEP][PASSED] - utilities.SafeActions.openBrowser(Genericsti_url, [pageLoadTime]): Browser launched successfully
+
+2020-01-29 12:40:50 - [MESSAGE][INFO] - Opening Browser
+
+2020-01-29 12:40:50 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-01-29 12:40:51 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-01-29 12:41:02 - [MESSAGE][PASSED] - Browser is opened with url: 'https://qa-certpaygenericsti.faps.net/genericsti/demo/'
+
+2020-01-29 12:41:04 - [MESSAGE][PASSED] - Current window maximized
+
+2020-01-29 12:41:04 - [MESSAGE][PASSED] - Browser launched successfully
+
+2020-01-29 12:41:04 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_GENERICSTI/Demo_Pages/BEGIN_PAYMENT"), "Begin Payment", [pageLoadTime]): GenericSTI_DifferentCardType.ts:Clicked on the Begin Payment
+
+2020-01-29 12:41:04 - [MESSAGE][INFO] - safeClicking
+
+2020-01-29 12:41:04 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Demo_Pages/BEGIN_PAYMENT' is present
+
+2020-01-29 12:41:04 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Demo_Pages/BEGIN_PAYMENT' is clickable
+
+2020-01-29 12:41:06 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_GENERICSTI/Demo_Pages/BEGIN_PAYMENT' is clicked on
+
+2020-01-29 12:41:06 - [MESSAGE][PASSED] - GenericSTI_DifferentCardType.ts:Clicked on the Begin Payment
+
+2020-01-29 12:41:06 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_GENERICSTI/XML_Page/SUBMIT"), "Submit XML", [pageLoadTime]): GenericSTI_DifferentCardType.ts:Clicked on the Submit XML
+
+2020-01-29 12:41:06 - [MESSAGE][INFO] - safeClicking
+
+2020-01-29 12:41:07 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/XML_Page/SUBMIT' is present
+
+2020-01-29 12:41:07 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/XML_Page/SUBMIT' is clickable
+
+2020-01-29 12:41:13 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_GENERICSTI/XML_Page/SUBMIT' is clicked on
+
+2020-01-29 12:41:13 - [MESSAGE][PASSED] - GenericSTI_DifferentCardType.ts:Clicked on the Submit XML
+
+2020-01-29 12:41:13 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_GENERICSTI/Payment_Information_Page/VISA"), "VISA Card", [pageLoadTime]): GenericSTI_DifferentCardType.ts:Clicked on the VISA Card
+
+2020-01-29 12:41:13 - [MESSAGE][INFO] - safeClicking
+
+2020-01-29 12:41:15 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/VISA' is present
+
+2020-01-29 12:41:15 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/VISA' is clickable
+
+2020-01-29 12:41:18 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/VISA' is clicked on
+
+2020-01-29 12:41:18 - [MESSAGE][PASSED] - GenericSTI_DifferentCardType.ts:Clicked on the VISA Card
+
+2020-01-29 12:41:18 - [TEST_STEP][PASSED] - CardNumber = pages.Genericsti.setUserPaymentDetails(cardNum): GenericSTI_DifferentCardType.ts:Entered'4263982640269299 into CardNum
+
+2020-01-29 12:41:19 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/CARD_NUMBER' is present
+
+2020-01-29 12:41:19 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/CARD_NUMBER' is visible
+
+2020-01-29 12:41:19 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/CARD_NUMBER' is present
+
+2020-01-29 12:41:21 - [MESSAGE][PASSED] - Text '4263982640269299' is set on object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/CARD_NUMBER'
+
+2020-01-29 12:41:21 - [MESSAGE][PASSED] - GenericSTI_DifferentCardType.ts:Entered'4263982640269299 into CardNum
+
+2020-01-29 12:41:21 - [TEST_STEP][PASSED] - pages.Genericsti.setExpDate(expMonth, expYear, securityCode): GenericSTI_DifferentCardType.ts:Entered'207 into securityCode
+
+2020-01-29 12:41:21 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/EXP_MONTH' is visible
+
+2020-01-29 12:41:21 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/EXP_MONTH' is present
+
+2020-01-29 12:41:23 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/EXP_MONTH' is clicked on
+
+2020-01-29 12:41:24 - [MESSAGE][PASSED] - All options with label '2' are selected in object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/EXP_MONTH'  using regular expression
+
+2020-01-29 12:41:24 - [MESSAGE][PASSED] - selected dropdown option by visible text  2from expMonth
+
+2020-01-29 12:41:24 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/EXP_YEAR' is visible
+
+2020-01-29 12:41:25 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/EXP_YEAR' is present
+
+2020-01-29 12:41:26 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/EXP_YEAR' is clicked on
+
+2020-01-29 12:41:27 - [MESSAGE][PASSED] - All options with label '2023' are selected in object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/EXP_YEAR'  using regular expression
+
+2020-01-29 12:41:27 - [MESSAGE][PASSED] - selected dropdown option by visible text  2023from  expYear
+
+2020-01-29 12:41:28 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/SECURITY_CODE' is present
+
+2020-01-29 12:41:28 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/SECURITY_CODE' is visible
+
+2020-01-29 12:41:28 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/SECURITY_CODE' is present
+
+2020-01-29 12:41:30 - [MESSAGE][PASSED] - Text '207' is set on object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/SECURITY_CODE'
+
+2020-01-29 12:41:30 - [MESSAGE][PASSED] - GenericSTI_DifferentCardType.ts:Entered'207 into securityCode
+
+2020-01-29 12:41:30 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_GENERICSTI/Payment_Information_Page/NEXT"), "Next", [pageLoadTime]): GenericSTI_DifferentCardType.ts:Clicked on the Next
+
+2020-01-29 12:41:30 - [MESSAGE][INFO] - safeClicking
+
+2020-01-29 12:41:30 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/NEXT' is present
+
+2020-01-29 12:41:30 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/NEXT' is clickable
+
+2020-01-29 12:41:34 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/NEXT' is clicked on
+
+2020-01-29 12:41:34 - [MESSAGE][PASSED] - GenericSTI_DifferentCardType.ts:Clicked on the Next
+
+2020-01-29 12:41:34 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_GENERICSTI/Review_Payment_Page/PROCESS_PAYMENT"), "Process payment", [pageLoadTime]): GenericSTI_DifferentCardType.ts:Clicked on the Process payment
+
+2020-01-29 12:41:34 - [MESSAGE][INFO] - safeClicking
+
+2020-01-29 12:41:35 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Review_Payment_Page/PROCESS_PAYMENT' is present
+
+2020-01-29 12:41:35 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Review_Payment_Page/PROCESS_PAYMENT' is clickable
+
+2020-01-29 12:41:37 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_GENERICSTI/Review_Payment_Page/PROCESS_PAYMENT' is clicked on
+
+2020-01-29 12:41:37 - [MESSAGE][PASSED] - GenericSTI_DifferentCardType.ts:Clicked on the Process payment
+
+2020-01-29 12:41:37 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_GENERICSTI/Confirm_Payment_Page/CONFIRM_YES"), "Process payment", [pageLoadTime]): GenericSTI_DifferentCardType.ts:Clicked on the Process payment
+
+2020-01-29 12:41:37 - [MESSAGE][INFO] - safeClicking
+
+2020-01-29 12:41:37 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Confirm_Payment_Page/CONFIRM_YES' is present
+
+2020-01-29 12:41:38 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Confirm_Payment_Page/CONFIRM_YES' is clickable
+
+2020-01-29 12:41:43 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_GENERICSTI/Confirm_Payment_Page/CONFIRM_YES' is clicked on
+
+2020-01-29 12:41:43 - [MESSAGE][PASSED] - GenericSTI_DifferentCardType.ts:Clicked on the Process payment
+
+2020-01-29 12:41:43 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_GENERICSTI/Payment_Details_Verification_Page/NEXT"), "Process payment", [pageLoadTime]): GenericSTI_DifferentCardType.ts:Clicked on the Process payment
+
+2020-01-29 12:41:43 - [MESSAGE][INFO] - safeClicking
+
+2020-01-29 12:41:45 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Details_Verification_Page/NEXT' is present
+
+2020-01-29 12:41:45 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Details_Verification_Page/NEXT' is clickable
+
+2020-01-29 12:41:51 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_GENERICSTI/Payment_Details_Verification_Page/NEXT' is clicked on
+
+2020-01-29 12:41:51 - [MESSAGE][PASSED] - GenericSTI_DifferentCardType.ts:Clicked on the Process payment
+
+2020-01-29 12:41:51 - [TEST_STEP][PASSED] - cardNum = data.getValue("CardNumber", index): null
+
+2020-01-29 12:41:51 - [TEST_STEP][PASSED] - expMonth = data.getValue("ExpMonth", index): null
+
+2020-01-29 12:41:51 - [TEST_STEP][PASSED] - expYear = data.getValue("ExpYear", index): null
+
+2020-01-29 12:41:51 - [TEST_STEP][PASSED] - securityCode = data.getValue("SecurityCode", index): null
+
+2020-01-29 12:41:51 - [TEST_STEP][PASSED] - cardType = data.getValue("CardType", index): null
+
+2020-01-29 12:41:51 - [TEST_STEP][PASSED] - utilities.SafeActions.openBrowser(Genericsti_url, [pageLoadTime]): Browser launched successfully
+
+2020-01-29 12:41:51 - [MESSAGE][INFO] - Opening Browser
+
+2020-01-29 12:41:51 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-01-29 12:41:52 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-01-29 12:42:01 - [MESSAGE][PASSED] - Browser is opened with url: 'https://qa-certpaygenericsti.faps.net/genericsti/demo/'
+
+2020-01-29 12:42:02 - [MESSAGE][PASSED] - Current window maximized
+
+2020-01-29 12:42:02 - [MESSAGE][PASSED] - Browser launched successfully
+
+2020-01-29 12:42:02 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_GENERICSTI/Demo_Pages/BEGIN_PAYMENT"), "Begin Payment", [pageLoadTime]): GenericSTI_DifferentCardType.ts:Clicked on the Begin Payment
+
+2020-01-29 12:42:02 - [MESSAGE][INFO] - safeClicking
+
+2020-01-29 12:42:02 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Demo_Pages/BEGIN_PAYMENT' is present
+
+2020-01-29 12:42:03 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Demo_Pages/BEGIN_PAYMENT' is clickable
+
+2020-01-29 12:42:04 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_GENERICSTI/Demo_Pages/BEGIN_PAYMENT' is clicked on
+
+2020-01-29 12:42:04 - [MESSAGE][PASSED] - GenericSTI_DifferentCardType.ts:Clicked on the Begin Payment
+
+2020-01-29 12:42:04 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_GENERICSTI/XML_Page/SUBMIT"), "Submit XML", [pageLoadTime]): GenericSTI_DifferentCardType.ts:Clicked on the Submit XML
+
+2020-01-29 12:42:05 - [MESSAGE][INFO] - safeClicking
+
+2020-01-29 12:42:05 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/XML_Page/SUBMIT' is present
+
+2020-01-29 12:42:05 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/XML_Page/SUBMIT' is clickable
+
+2020-01-29 12:42:10 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_GENERICSTI/XML_Page/SUBMIT' is clicked on
+
+2020-01-29 12:42:10 - [MESSAGE][PASSED] - GenericSTI_DifferentCardType.ts:Clicked on the Submit XML
+
+2020-01-29 12:42:10 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_GENERICSTI/Payment_Information_Page/VISA"), "VISA Card", [pageLoadTime]): GenericSTI_DifferentCardType.ts:Clicked on the VISA Card
+
+2020-01-29 12:42:10 - [MESSAGE][INFO] - safeClicking
+
+2020-01-29 12:42:11 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/VISA' is present
+
+2020-01-29 12:42:12 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/VISA' is clickable
+
+2020-01-29 12:42:15 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/VISA' is clicked on
+
+2020-01-29 12:42:15 - [MESSAGE][PASSED] - GenericSTI_DifferentCardType.ts:Clicked on the VISA Card
+
+2020-01-29 12:42:15 - [TEST_STEP][ERROR] - CardNumber = pages.Genericsti.setUserPaymentDetails(cardNum): String index out of range: -12
+
+2020-01-29 12:42:15 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/CARD_NUMBER' is present
+
+2020-01-29 12:42:16 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/CARD_NUMBER' is visible
+
+2020-01-29 12:42:16 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/CARD_NUMBER' is present
+
+2020-01-29 12:42:17 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/CARD_NUMBER'
+
+2020-01-29 12:42:17 - [MESSAGE][PASSED] - GenericSTI_DifferentCardType.ts:Entered' into CardNum
+
+2020-01-29 12:42:18 - [MESSAGE][ERROR] - String index out of range: -12]]></system-out>
+         <system-err><![CDATA[2020-01-29 12:39:16 - [TEST_CASE][ERROR] - Test Cases/Certpay_GenericSTI/CardTypes_SingleLinePayment/TC_001_SingleLinePayment_VISA: Test Cases/Certpay_GenericSTI/CardTypes_SingleLinePayment/TC_001_SingleLinePayment_VISA FAILED.
+Reason:
+java.lang.StringIndexOutOfBoundsException: String index out of range: -12
+	at java_lang_String$substring$2.call(Unknown Source)
+	at pages.Genericsti.setUserPaymentDetails(Genericsti.groovy:69)
+	at pages.Genericsti.invokeMethod(Genericsti.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at TC_001_SingleLinePayment_VISA.run(TC_001_SingleLinePayment_VISA:50)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1580281747361.run(TempTestSuite1580281747361.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-01-29 12:39:16 - [TEST_SUITE][ERROR] - GenericSTI_DifferentCardType: Test Cases/Certpay_GenericSTI/CardTypes_SingleLinePayment/TC_001_SingleLinePayment_VISA FAILED.
+Reason:
+java.lang.StringIndexOutOfBoundsException: String index out of range: -12
+	at java_lang_String$substring$2.call(Unknown Source)
+	at pages.Genericsti.setUserPaymentDetails(Genericsti.groovy:69)
+	at pages.Genericsti.invokeMethod(Genericsti.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at TC_001_SingleLinePayment_VISA.run(TC_001_SingleLinePayment_VISA:50)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1580281747361.run(TempTestSuite1580281747361.groovy:36)]]></system-out>
+      <system-err><![CDATA[2020-01-29 12:39:16 - [TEST_SUITE][ERROR] - GenericSTI_DifferentCardType: Test Cases/Certpay_GenericSTI/CardTypes_SingleLinePayment/TC_001_SingleLinePayment_VISA FAILED.
+Reason:
+java.lang.StringIndexOutOfBoundsException: String index out of range: -12
+	at java_lang_String$substring$2.call(Unknown Source)
+	at pages.Genericsti.setUserPaymentDetails(Genericsti.groovy:69)
+	at pages.Genericsti.invokeMethod(Genericsti.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at TC_001_SingleLinePayment_VISA.run(TC_001_SingleLinePayment_VISA:50)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1580281747361.run(TempTestSuite1580281747361.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_001_SingleLinePayment_VISA</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d047e0c0-979e-4c84-904d-67518b93758c</testCaseGuid>
+</TestCaseEntity>

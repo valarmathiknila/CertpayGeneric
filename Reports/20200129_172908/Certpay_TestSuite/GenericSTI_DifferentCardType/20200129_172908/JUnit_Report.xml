@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="GenericSTI_DifferentCardType" time="164.709" tests="1" failures="0" errors="0">
+   <testsuite name="GenericSTI_DifferentCardType" tests="1" failures="0" errors="0" time="164.709" timestamp="2020-01-29 17:29:12" hostname="admin - SYS8" id="Test Suites/Certpay_TestSuite/GenericSTI_DifferentCardType">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\CertpayGeneric\\Reports\\20200129_172908\\Certpay_TestSuite\\GenericSTI_DifferentCardType\\20200129_172908"/>
+         <property name="logFiles" value="D:\\CertpayGeneric\\Reports\\20200129_172908\\Certpay_TestSuite\\GenericSTI_DifferentCardType\\20200129_172908\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="admin - SYS8"/>
+         <property name="os" value="Windows 10 32bit"/>
+         <property name="katalonVersion" value="7.1.2.1"/>
+         <property name="browser" value="Chrome 79.0.3945.130"/>
+         <property name="hostAddress" value="172.31.252.142"/>
+         <property name="sessionId" value="c945ea0314df576691d9da705bb6ea40"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Certpay_GenericSTI/CardTypes_SingleLinePayment/TC_003_SingleLinePayment_DISCOVER" time="163.542" classname="Test Cases/Certpay_GenericSTI/CardTypes_SingleLinePayment/TC_003_SingleLinePayment_DISCOVER" status="PASSED">
+         <system-out><![CDATA[2020-01-29 17:29:12 - [TEST_CASE][PASSED] - Test Cases/Certpay_GenericSTI/CardTypes_SingleLinePayment/TC_003_SingleLinePayment_DISCOVER: Test Cases/Certpay_GenericSTI/CardTypes_SingleLinePayment/TC_003_SingleLinePayment_DISCOVER
+
+2020-01-29 17:29:13 - [TEST_STEP][PASSED] - data = findTestData("Certpay/SingleBureau_SingleLine_DISCOVER"): null
+
+2020-01-29 17:29:13 - [TEST_STEP][PASSED] - for (def index : (1..data.getRowNumbers())): GenericSTI_DifferentCardType.ts:Clicked on the Process payment
+
+2020-01-29 17:29:13 - [TEST_STEP][PASSED] - cardNum = data.getValue("CardNumber", index): null
+
+2020-01-29 17:29:13 - [TEST_STEP][PASSED] - expMonth = data.getValue("ExpMonth", index): null
+
+2020-01-29 17:29:13 - [TEST_STEP][PASSED] - expYear = data.getValue("ExpYear", index): null
+
+2020-01-29 17:29:13 - [TEST_STEP][PASSED] - securityCode = data.getValue("SecurityCode", index): null
+
+2020-01-29 17:29:13 - [TEST_STEP][PASSED] - cardType = data.getValue("CardType", index): null
+
+2020-01-29 17:29:13 - [TEST_STEP][PASSED] - Comments = data.getValue("Comments", index): null
+
+2020-01-29 17:29:13 - [TEST_STEP][PASSED] - utilities.SafeActions.openBrowser(Genericsti_url, [pageLoadTime]): Browser launched successfully
+
+2020-01-29 17:29:14 - [MESSAGE][INFO] - Opening Browser
+
+2020-01-29 17:29:14 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-01-29 17:29:14 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-01-29 17:29:26 - [MESSAGE][PASSED] - Browser is opened with url: 'https://qa-certpaygenericsti.faps.net/genericsti/demo/'
+
+2020-01-29 17:29:28 - [MESSAGE][PASSED] - Current window maximized
+
+2020-01-29 17:29:28 - [MESSAGE][PASSED] - Browser launched successfully
+
+2020-01-29 17:29:28 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_GENERICSTI/Demo_Pages/BEGIN_PAYMENT"), "Begin Payment", [pageLoadTime]): GenericSTI_DifferentCardType.ts:Clicked on the Begin Payment
+
+2020-01-29 17:29:28 - [MESSAGE][INFO] - safeClicking
+
+2020-01-29 17:29:28 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Demo_Pages/BEGIN_PAYMENT' is present
+
+2020-01-29 17:29:29 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Demo_Pages/BEGIN_PAYMENT' is clickable
+
+2020-01-29 17:29:30 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_GENERICSTI/Demo_Pages/BEGIN_PAYMENT' is clicked on
+
+2020-01-29 17:29:30 - [MESSAGE][PASSED] - GenericSTI_DifferentCardType.ts:Clicked on the Begin Payment
+
+2020-01-29 17:29:30 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_GENERICSTI/XML_Page/SUBMIT"), "Submit XML", [pageLoadTime]): GenericSTI_DifferentCardType.ts:Clicked on the Submit XML
+
+2020-01-29 17:29:31 - [MESSAGE][INFO] - safeClicking
+
+2020-01-29 17:29:31 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/XML_Page/SUBMIT' is present
+
+2020-01-29 17:29:31 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/XML_Page/SUBMIT' is clickable
+
+2020-01-29 17:29:39 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_GENERICSTI/XML_Page/SUBMIT' is clicked on
+
+2020-01-29 17:29:39 - [MESSAGE][PASSED] - GenericSTI_DifferentCardType.ts:Clicked on the Submit XML
+
+2020-01-29 17:29:39 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_GENERICSTI/Payment_Information_Page/DISCOVER"), "Discover", [pageLoadTime]): GenericSTI_DifferentCardType.ts:Clicked on the Discover
+
+2020-01-29 17:29:39 - [MESSAGE][INFO] - safeClicking
+
+2020-01-29 17:29:41 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/DISCOVER' is present
+
+2020-01-29 17:29:41 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/DISCOVER' is clickable
+
+2020-01-29 17:29:47 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/DISCOVER' is clicked on
+
+2020-01-29 17:29:47 - [MESSAGE][PASSED] - GenericSTI_DifferentCardType.ts:Clicked on the Discover
+
+2020-01-29 17:29:47 - [TEST_STEP][PASSED] - utilities.SafeActions.safeType(findTestObject("CERTPAY_GENERICSTI/Payment_Information_Page/COMMENTS"), "Testing", "Comments", [pageLoadTime]): GenericSTI_DifferentCardType.ts:Entered'Testing into Comments
+
+2020-01-29 17:29:47 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/COMMENTS' is present
+
+2020-01-29 17:29:47 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/COMMENTS' is visible
+
+2020-01-29 17:29:48 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/COMMENTS' is present
+
+2020-01-29 17:29:49 - [MESSAGE][PASSED] - Text 'Testing' is set on object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/COMMENTS'
+
+2020-01-29 17:29:49 - [MESSAGE][PASSED] - GenericSTI_DifferentCardType.ts:Entered'Testing into Comments
+
+2020-01-29 17:29:49 - [TEST_STEP][PASSED] - CardNumber = pages.Genericsti.setUserPaymentDetails(cardNum): GenericSTI_DifferentCardType.ts:Entered'6011111111111117 into CardNum
+
+2020-01-29 17:29:50 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/CARD_NUMBER' is present
+
+2020-01-29 17:29:50 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/CARD_NUMBER' is visible
+
+2020-01-29 17:29:50 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/CARD_NUMBER' is present
+
+2020-01-29 17:29:52 - [MESSAGE][PASSED] - Text '6011111111111117' is set on object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/CARD_NUMBER'
+
+2020-01-29 17:29:52 - [MESSAGE][PASSED] - GenericSTI_DifferentCardType.ts:Entered'6011111111111117 into CardNum
+
+2020-01-29 17:29:52 - [TEST_STEP][PASSED] - pages.Genericsti.setExpDate(expMonth, expYear, securityCode): GenericSTI_DifferentCardType.ts:Entered'211 into securityCode
+
+2020-01-29 17:29:52 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/EXP_MONTH' is visible
+
+2020-01-29 17:29:53 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/EXP_MONTH' is present
+
+2020-01-29 17:29:54 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/EXP_MONTH' is clicked on
+
+2020-01-29 17:29:55 - [MESSAGE][PASSED] - All options with label '3' are selected in object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/EXP_MONTH'  using regular expression
+
+2020-01-29 17:29:55 - [MESSAGE][PASSED] - selected dropdown option by visible text  3from expMonth
+
+2020-01-29 17:29:56 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/EXP_YEAR' is visible
+
+2020-01-29 17:29:56 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/EXP_YEAR' is present
+
+2020-01-29 17:29:57 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/EXP_YEAR' is clicked on
+
+2020-01-29 17:29:59 - [MESSAGE][PASSED] - All options with label '2023' are selected in object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/EXP_YEAR'  using regular expression
+
+2020-01-29 17:29:59 - [MESSAGE][PASSED] - selected dropdown option by visible text  2023from  expYear
+
+2020-01-29 17:29:59 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/SECURITY_CODE' is present
+
+2020-01-29 17:29:59 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/SECURITY_CODE' is visible
+
+2020-01-29 17:30:00 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/SECURITY_CODE' is present
+
+2020-01-29 17:30:01 - [MESSAGE][PASSED] - Text '211' is set on object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/SECURITY_CODE'
+
+2020-01-29 17:30:01 - [MESSAGE][PASSED] - GenericSTI_DifferentCardType.ts:Entered'211 into securityCode
+
+2020-01-29 17:30:01 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_GENERICSTI/Payment_Information_Page/NEXT"), "Next", [pageLoadTime]): GenericSTI_DifferentCardType.ts:Clicked on the Next
+
+2020-01-29 17:30:01 - [MESSAGE][INFO] - safeClicking
+
+2020-01-29 17:30:01 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/NEXT' is present
+
+2020-01-29 17:30:02 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/NEXT' is clickable
+
+2020-01-29 17:30:11 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/NEXT' is clicked on
+
+2020-01-29 17:30:11 - [MESSAGE][PASSED] - GenericSTI_DifferentCardType.ts:Clicked on the Next
+
+2020-01-29 17:30:11 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_GENERICSTI/Review_Payment_Page/PROCESS_PAYMENT"), "Process payment", [pageLoadTime]): GenericSTI_DifferentCardType.ts:Clicked on the Process payment
+
+2020-01-29 17:30:11 - [MESSAGE][INFO] - safeClicking
+
+2020-01-29 17:30:12 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Review_Payment_Page/PROCESS_PAYMENT' is present
+
+2020-01-29 17:30:12 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Review_Payment_Page/PROCESS_PAYMENT' is clickable
+
+2020-01-29 17:30:14 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_GENERICSTI/Review_Payment_Page/PROCESS_PAYMENT' is clicked on
+
+2020-01-29 17:30:14 - [MESSAGE][PASSED] - GenericSTI_DifferentCardType.ts:Clicked on the Process payment
+
+2020-01-29 17:30:14 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_GENERICSTI/Confirm_Payment_Page/CONFIRM_YES"), "Process payment", [pageLoadTime]): GenericSTI_DifferentCardType.ts:Clicked on the Process payment
+
+2020-01-29 17:30:14 - [MESSAGE][INFO] - safeClicking
+
+2020-01-29 17:30:14 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Confirm_Payment_Page/CONFIRM_YES' is present
+
+2020-01-29 17:30:15 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Confirm_Payment_Page/CONFIRM_YES' is clickable
+
+2020-01-29 17:30:25 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_GENERICSTI/Confirm_Payment_Page/CONFIRM_YES' is clicked on
+
+2020-01-29 17:30:25 - [MESSAGE][PASSED] - GenericSTI_DifferentCardType.ts:Clicked on the Process payment
+
+2020-01-29 17:30:25 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_GENERICSTI/Payment_Details_Verification_Page/NEXT"), "Process payment", [pageLoadTime]): GenericSTI_DifferentCardType.ts:Clicked on the Process payment
+
+2020-01-29 17:30:25 - [MESSAGE][INFO] - safeClicking
+
+2020-01-29 17:30:27 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Details_Verification_Page/NEXT' is present
+
+2020-01-29 17:30:27 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Details_Verification_Page/NEXT' is clickable
+
+2020-01-29 17:30:34 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_GENERICSTI/Payment_Details_Verification_Page/NEXT' is clicked on
+
+2020-01-29 17:30:34 - [MESSAGE][PASSED] - GenericSTI_DifferentCardType.ts:Clicked on the Process payment
+
+2020-01-29 17:30:34 - [TEST_STEP][PASSED] - cardNum = data.getValue("CardNumber", index): null
+
+2020-01-29 17:30:34 - [TEST_STEP][PASSED] - expMonth = data.getValue("ExpMonth", index): null
+
+2020-01-29 17:30:34 - [TEST_STEP][PASSED] - expYear = data.getValue("ExpYear", index): null
+
+2020-01-29 17:30:34 - [TEST_STEP][PASSED] - securityCode = data.getValue("SecurityCode", index): null
+
+2020-01-29 17:30:34 - [TEST_STEP][PASSED] - cardType = data.getValue("CardType", index): null
+
+2020-01-29 17:30:34 - [TEST_STEP][PASSED] - Comments = data.getValue("Comments", index): null
+
+2020-01-29 17:30:34 - [TEST_STEP][PASSED] - utilities.SafeActions.openBrowser(Genericsti_url, [pageLoadTime]): Browser launched successfully
+
+2020-01-29 17:30:34 - [MESSAGE][INFO] - Opening Browser
+
+2020-01-29 17:30:34 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-01-29 17:30:35 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-01-29 17:30:41 - [MESSAGE][PASSED] - Browser is opened with url: 'https://qa-certpaygenericsti.faps.net/genericsti/demo/'
+
+2020-01-29 17:30:43 - [MESSAGE][PASSED] - Current window maximized
+
+2020-01-29 17:30:43 - [MESSAGE][PASSED] - Browser launched successfully
+
+2020-01-29 17:30:43 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_GENERICSTI/Demo_Pages/BEGIN_PAYMENT"), "Begin Payment", [pageLoadTime]): GenericSTI_DifferentCardType.ts:Clicked on the Begin Payment
+
+2020-01-29 17:30:43 - [MESSAGE][INFO] - safeClicking
+
+2020-01-29 17:30:43 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Demo_Pages/BEGIN_PAYMENT' is present
+
+2020-01-29 17:30:43 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Demo_Pages/BEGIN_PAYMENT' is clickable
+
+2020-01-29 17:30:45 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_GENERICSTI/Demo_Pages/BEGIN_PAYMENT' is clicked on
+
+2020-01-29 17:30:45 - [MESSAGE][PASSED] - GenericSTI_DifferentCardType.ts:Clicked on the Begin Payment
+
+2020-01-29 17:30:45 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_GENERICSTI/XML_Page/SUBMIT"), "Submit XML", [pageLoadTime]): GenericSTI_DifferentCardType.ts:Clicked on the Submit XML
+
+2020-01-29 17:30:45 - [MESSAGE][INFO] - safeClicking
+
+2020-01-29 17:30:45 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/XML_Page/SUBMIT' is present
+
+2020-01-29 17:30:46 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/XML_Page/SUBMIT' is clickable
+
+2020-01-29 17:30:54 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_GENERICSTI/XML_Page/SUBMIT' is clicked on
+
+2020-01-29 17:30:54 - [MESSAGE][PASSED] - GenericSTI_DifferentCardType.ts:Clicked on the Submit XML
+
+2020-01-29 17:30:54 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_GENERICSTI/Payment_Information_Page/DISCOVER"), "Discover", [pageLoadTime]): GenericSTI_DifferentCardType.ts:Clicked on the Discover
+
+2020-01-29 17:30:54 - [MESSAGE][INFO] - safeClicking
+
+2020-01-29 17:30:56 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/DISCOVER' is present
+
+2020-01-29 17:30:56 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/DISCOVER' is clickable
+
+2020-01-29 17:31:00 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/DISCOVER' is clicked on
+
+2020-01-29 17:31:00 - [MESSAGE][PASSED] - GenericSTI_DifferentCardType.ts:Clicked on the Discover
+
+2020-01-29 17:31:00 - [TEST_STEP][PASSED] - utilities.SafeActions.safeType(findTestObject("CERTPAY_GENERICSTI/Payment_Information_Page/COMMENTS"), "Testing", "Comments", [pageLoadTime]): GenericSTI_DifferentCardType.ts:Entered'Testing into Comments
+
+2020-01-29 17:31:00 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/COMMENTS' is present
+
+2020-01-29 17:31:01 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/COMMENTS' is visible
+
+2020-01-29 17:31:01 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/COMMENTS' is present
+
+2020-01-29 17:31:02 - [MESSAGE][PASSED] - Text 'Testing' is set on object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/COMMENTS'
+
+2020-01-29 17:31:02 - [MESSAGE][PASSED] - GenericSTI_DifferentCardType.ts:Entered'Testing into Comments
+
+2020-01-29 17:31:02 - [TEST_STEP][PASSED] - CardNumber = pages.Genericsti.setUserPaymentDetails(cardNum): GenericSTI_DifferentCardType.ts:Entered'6011000991300009 into CardNum
+
+2020-01-29 17:31:03 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/CARD_NUMBER' is present
+
+2020-01-29 17:31:03 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/CARD_NUMBER' is visible
+
+2020-01-29 17:31:03 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/CARD_NUMBER' is present
+
+2020-01-29 17:31:05 - [MESSAGE][PASSED] - Text '6011000991300009' is set on object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/CARD_NUMBER'
+
+2020-01-29 17:31:05 - [MESSAGE][PASSED] - GenericSTI_DifferentCardType.ts:Entered'6011000991300009 into CardNum
+
+2020-01-29 17:31:05 - [TEST_STEP][PASSED] - pages.Genericsti.setExpDate(expMonth, expYear, securityCode): GenericSTI_DifferentCardType.ts:Entered'201 into securityCode
+
+2020-01-29 17:31:05 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/EXP_MONTH' is visible
+
+2020-01-29 17:31:06 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/EXP_MONTH' is present
+
+2020-01-29 17:31:07 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/EXP_MONTH' is clicked on
+
+2020-01-29 17:31:08 - [MESSAGE][PASSED] - All options with label '2' are selected in object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/EXP_MONTH'  using regular expression
+
+2020-01-29 17:31:08 - [MESSAGE][PASSED] - selected dropdown option by visible text  2from expMonth
+
+2020-01-29 17:31:09 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/EXP_YEAR' is visible
+
+2020-01-29 17:31:09 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/EXP_YEAR' is present
+
+2020-01-29 17:31:10 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/EXP_YEAR' is clicked on
+
+2020-01-29 17:31:12 - [MESSAGE][PASSED] - All options with label '2020' are selected in object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/EXP_YEAR'  using regular expression
+
+2020-01-29 17:31:12 - [MESSAGE][PASSED] - selected dropdown option by visible text  2020from  expYear
+
+2020-01-29 17:31:12 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/SECURITY_CODE' is present
+
+2020-01-29 17:31:12 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/SECURITY_CODE' is visible
+
+2020-01-29 17:31:13 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/SECURITY_CODE' is present
+
+2020-01-29 17:31:14 - [MESSAGE][PASSED] - Text '201' is set on object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/SECURITY_CODE'
+
+2020-01-29 17:31:14 - [MESSAGE][PASSED] - GenericSTI_DifferentCardType.ts:Entered'201 into securityCode
+
+2020-01-29 17:31:14 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_GENERICSTI/Payment_Information_Page/NEXT"), "Next", [pageLoadTime]): GenericSTI_DifferentCardType.ts:Clicked on the Next
+
+2020-01-29 17:31:14 - [MESSAGE][INFO] - safeClicking
+
+2020-01-29 17:31:14 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/NEXT' is present
+
+2020-01-29 17:31:15 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/NEXT' is clickable
+
+2020-01-29 17:31:20 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_GENERICSTI/Payment_Information_Page/NEXT' is clicked on
+
+2020-01-29 17:31:20 - [MESSAGE][PASSED] - GenericSTI_DifferentCardType.ts:Clicked on the Next
+
+2020-01-29 17:31:20 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_GENERICSTI/Review_Payment_Page/PROCESS_PAYMENT"), "Process payment", [pageLoadTime]): GenericSTI_DifferentCardType.ts:Clicked on the Process payment
+
+2020-01-29 17:31:20 - [MESSAGE][INFO] - safeClicking
+
+2020-01-29 17:31:21 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Review_Payment_Page/PROCESS_PAYMENT' is present
+
+2020-01-29 17:31:21 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Review_Payment_Page/PROCESS_PAYMENT' is clickable
+
+2020-01-29 17:31:23 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_GENERICSTI/Review_Payment_Page/PROCESS_PAYMENT' is clicked on
+
+2020-01-29 17:31:23 - [MESSAGE][PASSED] - GenericSTI_DifferentCardType.ts:Clicked on the Process payment
+
+2020-01-29 17:31:23 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_GENERICSTI/Confirm_Payment_Page/CONFIRM_YES"), "Process payment", [pageLoadTime]): GenericSTI_DifferentCardType.ts:Clicked on the Process payment
+
+2020-01-29 17:31:23 - [MESSAGE][INFO] - safeClicking
+
+2020-01-29 17:31:23 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Confirm_Payment_Page/CONFIRM_YES' is present
+
+2020-01-29 17:31:24 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Confirm_Payment_Page/CONFIRM_YES' is clickable
+
+2020-01-29 17:31:45 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_GENERICSTI/Confirm_Payment_Page/CONFIRM_YES' is clicked on
+
+2020-01-29 17:31:45 - [MESSAGE][PASSED] - GenericSTI_DifferentCardType.ts:Clicked on the Process payment
+
+2020-01-29 17:31:45 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClick(findTestObject("CERTPAY_GENERICSTI/Payment_Details_Verification_Page/NEXT"), "Process payment", [pageLoadTime]): GenericSTI_DifferentCardType.ts:Clicked on the Process payment
+
+2020-01-29 17:31:45 - [MESSAGE][INFO] - safeClicking
+
+2020-01-29 17:31:48 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Details_Verification_Page/NEXT' is present
+
+2020-01-29 17:31:48 - [MESSAGE][PASSED] - Object 'Object Repository/CERTPAY_GENERICSTI/Payment_Details_Verification_Page/NEXT' is clickable
+
+2020-01-29 17:31:55 - [MESSAGE][PASSED] - Object: 'Object Repository/CERTPAY_GENERICSTI/Payment_Details_Verification_Page/NEXT' is clicked on
+
+2020-01-29 17:31:55 - [MESSAGE][PASSED] - GenericSTI_DifferentCardType.ts:Clicked on the Process payment]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-01-29 17:29:12 - [TEST_SUITE][PASSED] - GenericSTI_DifferentCardType: Test Cases/Certpay_GenericSTI/CardTypes_SingleLinePayment/TC_003_SingleLinePayment_DISCOVER]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
